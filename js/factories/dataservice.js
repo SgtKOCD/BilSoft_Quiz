@@ -18,7 +18,7 @@
         return dataObj;
     }
 
-    // burada dataları tutuyoruz cevapları soruları ve eğitim konularını
+    // burada dataları tutuyoruz cevapları soruları ve eğitim konularını"https://youtu.be/IWpZSeS0PjE"
 
     var correctAnswers = [1, 2, 3, 0, 2, 0, 3, 2, 0, 3];
     
@@ -27,6 +27,8 @@
         {
             type: "text",
             text: "soru1",
+            video_url:"https://www.w3schools.com",
+            
             possibilities: [
                 {
                     answer: "cavap1"
@@ -47,6 +49,7 @@
         {
             type: "text",
             text: "soru2",
+            video_url:"https://youtu.be/Hmfn4NYvI4E",
             possibilities: [
                 {
                     answer: "cavap1"
@@ -67,6 +70,7 @@
         {
             type: "text",
             text: "soru3",
+            video_url:"https://youtu.be/3nmYXBRlZWw",
             possibilities: [
                 {
                     answer: "cavap1"
@@ -87,6 +91,7 @@
         {
             type: "text",
             text: "soru4",
+            video_url:"https://youtu.be/xRGvR9jJ8cI",
             possibilities: [
                 {
                     answer: "cavap1"
@@ -107,6 +112,7 @@
         {
             type: "text",
             text: "soru5",
+            video_url:"https://youtu.be/vW8vSprRVj4",
             possibilities: [
                 {
                     answer: "cavap1"
@@ -127,6 +133,7 @@
         {
             type: "text",
             text: "soru6",
+            video_url:"https://youtu.be/-1ZkzBXZKnI",
             possibilities: [
                 {
                     answer: "cavap1"
@@ -147,6 +154,7 @@
         {
             type: "text",
             text: "soru7",
+            video_url:"https://youtu.be/20hVmGRV0mA",
             possibilities: [
                 {
                     answer: "cavap1"
@@ -167,6 +175,7 @@
         {
             type: "text",
             text: "soru8",
+            video_url:"https://youtu.be/e5jrl3VBJdc",
             possibilities: [
                 {
                     answer: "cavap1"
@@ -187,6 +196,7 @@
         {
             type: "text",
             text: "soru9",
+            video_url:"https://youtu.be/qG7Ofw9DxLc",
             possibilities: [
                 {
                     answer: "cavap1"
@@ -207,6 +217,7 @@
         {
             type: "text",
             text: "soru10",
+            video_url:"https://youtu.be/FpPMh1GHKCA",
             possibilities: [
                 {
                     answer: "cavap1"
@@ -223,7 +234,175 @@
             ],
             selected: null,
             correct: null
-        }
+        },
+        {
+            type: "text",
+            text: "soru11",
+            video_url:"https://youtu.be/WQDKK5EFg98",
+            possibilities: [
+                {
+                    answer: "cavap1"
+                },
+                {
+                    answer: "cevap2"
+                },
+                {
+                    answer: "cevap3"
+                },
+                {
+                    answer: "cevap4"
+                }
+            ],
+            selected: null,
+            correct: null
+        },
+        {
+            type: "text",
+            text: "soru12",
+            video_url:"https://youtu.be/V4N1c7PJFzY",
+            possibilities: [
+                {
+                    answer: "cavap1"
+                },
+                {
+                    answer: "cevap2"
+                },
+                {
+                    answer: "cevap3"
+                },
+                {
+                    answer: "cevap4"
+                }
+            ],
+            selected: null,
+            correct: null
+        },
+        {
+            type: "text",
+            text: "soru13",
+            video_url:"https://youtu.be/XpLowSQAzno",
+            possibilities: [
+                {
+                    answer: "cavap1"
+                },
+                {
+                    answer: "cevap2"
+                },
+                {
+                    answer: "cevap3"
+                },
+                {
+                    answer: "cevap4"
+                }
+            ],
+            selected: null,
+            correct: null
+        },
+        {
+            type: "text",
+            text: "soru14",
+            video_url:"https://youtu.be/DF0Dq91hU5k",
+            possibilities: [
+                {
+                    answer: "cavap1"
+                },
+                {
+                    answer: "cevap2"
+                },
+                {
+                    answer: "cevap3"
+                },
+                {
+                    answer: "cevap4"
+                }
+            ],
+            selected: null,
+            correct: null
+        },
+        {
+            type: "text",
+            text: "soru15",
+            video_url:"https://youtu.be/LFG5_sp9TKo",
+            possibilities: [
+                {
+                    answer: "cavap1"
+                },
+                {
+                    answer: "cevap2"
+                },
+                {
+                    answer: "cevap3"
+                },
+                {
+                    answer: "cevap4"
+                }
+            ],
+            selected: null,
+            correct: null
+        },
+        {
+            type: "text",
+            text: "soru16",
+            video_url:"https://youtu.be/DgbpegiNqfs",
+            possibilities: [
+                {
+                    answer: "cavap1"
+                },
+                {
+                    answer: "cevap2"
+                },
+                {
+                    answer: "cevap3"
+                },
+                {
+                    answer: "cevap4"
+                }
+            ],
+            selected: null,
+            correct: null
+        },
+        {
+            type: "text",
+            text: "soru17",
+            video_url:"https://youtu.be/xR5O8y_rFc0",
+            possibilities: [
+                {
+                    answer: "cavap1"
+                },
+                {
+                    answer: "cevap2"
+                },
+                {
+                    answer: "cevap3"
+                },
+                {
+                    answer: "cevap4"
+                }
+            ],
+            selected: null,
+            correct: null
+        },
+        {
+            type: "text",
+            text: "soru18",
+            video_url:"https://youtu.be/9kDVeXQysUA",
+            possibilities: [
+                {
+                    answer: "cavap1"
+                },
+                {
+                    answer: "cevap2"
+                },
+                {
+                    answer: "cevap3"
+                },
+                {
+                    answer: "cevap4"
+                }
+            ],
+            selected: null,
+            correct: null
+        },
     ];
 
     var egitimData = [
