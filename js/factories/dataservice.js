@@ -22,7 +22,7 @@
 
     // burada dataları tutuyoruz cevapları soruları ve eğitim konularını https://www.youtube.com/watch?v=IWpZSeS0PjE
 
-    var correctAnswers = [1, 2, 3, 0, 2, 0, 3, 2, 0, 3, 2, 0, 1, 1, 3, 1, 3, 2];
+    var correctAnswers = [1, 2, 3, 0, 2, 0, 3, 2, 0, 3];
     // var video=["https://youtu.be/IWpZSeS0PjE",
     // "https://youtu.be/Hmfn4NYvI4E",
     // "https://youtu.be/3nmYXBRlZWw",
