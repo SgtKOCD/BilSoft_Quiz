@@ -12,7 +12,8 @@
             egitimData: egitimData,
             quizQuestions: quizQuestions,
             correctAnswers: correctAnswers,
-            video:video
+            video:video,
+            asd:asd
         };
 
         
@@ -39,18 +40,18 @@
     // "https://youtu.be/LFG5_sp9TKo",
     // "https://youtu.be/DgbpegiNqfs",
     // "https://youtu.be/xR5O8y_rFc0",
-    // "https://youtu.be/9kDVeXQysUA"];
+    // "https://youtu.be/9kDVeXQysUA"]; 
 
-    var video=["Cari-Hesaplar.mp4","Hesap-Kartı-Ekleme.mp4","Stok-Kartlar-Böümü.mp4","Alış-Satış-Paneli.mp4","Hızlı-Satış-Paneli.mp4",
-    "Fatura-Bölümü.mp4","Kasa-Bölümü.mp4","Taksit-Takip-Bölümü.mp4","Teklif-Sipariş-Bölümü.mp4","Yedekleme-Modülü.mp4","Sms-Modülü.mp4",
-    "Banka-Bölümü.mp4","E-Fatura_E-Arşiv-Programı.mp4","E-Fatura.mp4","E-Arşiv.mp4","İhracat-Faturası-ve-Gelen-Fatura-Takibi.mp4",
-    "E-İrsaliye.mp4","Personel-Takip-Programı.mp4"];
-
+     var video=[{adres:["Cari-Hesaplar.mp4"]},{adres:["Hesap-Kartı-Ekleme.mp4"]},{adres:["Stok-Kartlar-Böümü.mp4"]},{adres:["Alış-Satış-Paneli.mp4"]},{adres:["Hızlı-Satış-Paneli.mp4"]},
+     {adres:["Fatura-Bölümü.mp4"]},{adres:["Kasa-Bölümü.mp4"]},{adres:["Taksit-Takip-Bölümü.mp4"]},{adres:["Teklif-Sipariş-Bölümü.mp4"]},{adres:["Yedekleme-Modülü.mp4"]},{adres:["Sms-Modülü.mp4"]},
+     {adres:["Banka-Bölümü.mp4"]},{adres:["E-Fatura_E-Arşiv-Programı.mp4"]},{adres:["E-Fatura.mp4"]},{adres:["E-Arşiv.mp4"]},{adres:["İhracat-Faturası-ve-Gelen-Fatura-Takibi.mp4"]},
+     {adres:["E-İrsaliye.mp4"]},{adres:["Personel-Takip-Programı.mp4"]}];
+     var asd=["TRTR","TRTR"];
     var quizQuestions  = [
         {
             type: "text",
             text: "soru1",
-            //video_url:
+            //video_url:"Cari-Hesaplar.mp4",
             
             possibilities: [
                 {
@@ -72,7 +73,7 @@
         {
             type: "text",
             text: "soru2",
-            //video_url:
+            //video_url:"Hesap-Kartı-Ekleme.mp4",
             possibilities: [
                 {
                     answer: "cavap1"
@@ -93,7 +94,7 @@
         {
             type: "text",
             text: "soru3",
-            //video_url:,
+            //video_url:"Stok-Kartlar-Böümü.mp4",
             possibilities: [
                 {
                     answer: "cavap1"
@@ -114,7 +115,7 @@
         {
             type: "text",
             text: "soru4",
-            //video_url:
+            //video_url:"Alış-Satış-Paneli.mp4",
             possibilities: [
                 {
                     answer: "cavap1"
@@ -135,7 +136,8 @@
         {
             type: "text",
             text: "soru5",
-            //video_url:
+            //video_url:"Hızlı-Satış-Paneli.mp4",
+            
             possibilities: [
                 {
                     answer: "cavap1"
@@ -156,7 +158,7 @@
         {
             type: "text",
             text: "soru6",
-            //video_url:,
+            //video_url:"Fatura-Bölümü.mp4",
             possibilities: [
                 {
                     answer: "cavap1"
@@ -177,7 +179,7 @@
         {
             type: "text",
             text: "soru7",
-            //video_url:,
+            //video_url:"Kasa-Bölümü.mp4",
             possibilities: [
                 {
                     answer: "cavap1"
@@ -198,7 +200,7 @@
         {
             type: "text",
             text: "soru8",
-            //video_url:
+            //video_url:"Taksit-Takip-Bölümü.mp4",
             possibilities: [
                 {
                     answer: "cavap1"
@@ -219,7 +221,7 @@
         {
             type: "text",
             text: "soru9",
-            //video_url:
+            //video_url:"Teklif-Sipariş-Bölümü.mp4",
             possibilities: [
                 {
                     answer: "cavap1"
@@ -240,7 +242,7 @@
         {
             type: "text",
             text: "soru10",
-            //video_url:
+            //video_url:"Yedekleme-Modülü.mp4",
             possibilities: [
                 {
                     answer: "cavap1"
@@ -261,7 +263,8 @@
         {
             type: "text",
             text: "soru11",
-            //video_url:
+            //video_url:"Sms-Modülü.mp4",
+            
             possibilities: [
                 {
                     answer: "cavap1"
@@ -282,7 +285,7 @@
         {
             type: "text",
             text: "soru12",
-            //video_url:
+            //video_url:"Banka-Bölümü.mp4",
             possibilities: [
                 {
                     answer: "cavap1"
@@ -303,7 +306,7 @@
         {
             type: "text",
             text: "soru13",
-            //video_url:
+            //video_url:"E-Fatura_E-Arşiv-Programı.mp4",
             possibilities: [
                 {
                     answer: "cavap1"
@@ -324,7 +327,7 @@
         {
             type: "text",
             text: "soru14",
-            //video_url:
+            //video_url:"E-Fatura.mp4",
             possibilities: [
                 {
                     answer: "cavap1"
@@ -345,7 +348,7 @@
         {
             type: "text",
             text: "soru15",
-            //video_url:
+            //video_url:"E-Arşiv.mp4",
             possibilities: [
                 {
                     answer: "cavap1"
@@ -366,7 +369,8 @@
         {
             type: "text",
             text: "soru16",
-            //video_url:
+            //video_url:"İhracat-Faturası-ve-Gelen-Fatura-Takibi.mp4",
+            
             possibilities: [
                 {
                     answer: "cavap1"
@@ -387,7 +391,7 @@
         {
             type: "text",
             text: "soru17",
-            //video_url:
+            //video_url:"E-İrsaliye.mp4",
             possibilities: [
                 {
                     answer: "cavap1"
@@ -408,7 +412,7 @@
         {
             type: "text",
             text: "soru18",
-            //video_url:
+            //video_url:"Personel-Takip-Programı.mp4",
             possibilities: [
                 {
                     answer: "cavap1"

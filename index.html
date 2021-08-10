@@ -131,26 +131,28 @@
                 <div class="well well-sm" ng-hide="quiz.finalise">
                     <div class="row">
                         <div class="col-xs-12">
-                            <div class="row" style="text-align: center;">
-                                <div>
-                                    
-
-                                    <video width="560" height="315" controls>
-                                        <source src="{{quiz.dataService.video[quiz.activeQuestion]}}" type='video/mp4'>
-                                        <source src="{{quiz.dataService.video[quiz.activeQuestion]}}" type="video/ogg">
-                                        
-                                    </video>
-                                    
-                                </div>
-                            </div>
+                            
+                                
+                                     
+                                
+                            
                             
                             <h4>{{quiz.activeQuestion+1 + ". " +
                                 quiz.dataService.quizQuestions[quiz.activeQuestion].text}}</h4>
 
                             <div class="row"
                                 ng-if="quiz.dataService.quizQuestions[quiz.activeQuestion].type === 'text'">
+                                <div ng-repeat="video in quiz.dataService.video[quiz.activeQuestion].adres" style="text-align:center;">
+                                    <video width="560" height="315" controls>
+                                        <source src="{{video}}" type='video/mp4'>
+                                        <source src="{{video}}" type="video/ogg">
+                                        
+                                    </video>
+                                        
+                                    </div>
                                 <div class="col-sm-6"
                                     ng-repeat="answer in quiz.dataService.quizQuestions[quiz.activeQuestion].possibilities">
+                                    
                                     <h4 class="answer"
                                         ng-class="{'bg-info': $index === quiz.dataService.quizQuestions[quiz.activeQuestion].selected}"
                                         ng-click="quiz.selectAnswer($index)">
@@ -262,7 +264,7 @@
                                 <!-- ng-repeat -->
                                 <div class="col-sm-6"
                                     ng-repeat="answer in results.dataService.quizQuestions[results.activeQuestion].possibilities">
-                                    <!-- ng-class and ng-src -->
+                                   
                                     <div class="image-answer" ng-class="results.getAnswerClass($index)">
                                         <img ng-src="{{answer.answer}}">
                                     </div>

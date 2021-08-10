@@ -20,11 +20,12 @@
         vm.setActiveQuestion = setActiveQuestion; 
         vm.selectAnswer = selectAnswer; 
         vm.finaliseAnswers = finaliseAnswers; 
-        vm.activeQuestion = 0; // testteki aktif soru ( indis )
+        vm.video=video;
+        vm.activeQuestion = 0; // testteki cevaplanmayan soru soru ( indis )
         vm.error = false; // kullanıcının boş soru bırakmasını engellemek için tanımlanan bayrak
         vm.finalise = false; //testi bitirmek ve sonuçları görüntülemek için tanımlandı
-                             
-        
+                   
+
         var numQuestionsAnswered = 0; // cevaplanmış soruların sayacı
 
         
@@ -54,6 +55,7 @@
             }else{
                 
                 vm.activeQuestion = index;
+                
             }
 
         }
@@ -64,16 +66,18 @@
             var quizLength = DataService.quizQuestions.length;
             
             numQuestionsAnswered = 0;
-            
+           
             for(var x = 0; x < quizLength; x++){
                 if(DataService.quizQuestions[vm.activeQuestion].selected !== null){
                     numQuestionsAnswered++;
+                    
                     if(numQuestionsAnswered >= quizLength){
                         // testi bitirme koşulu
                         for(var i = 0; i < quizLength; i++){
                             
                             if(DataService.quizQuestions[i].selected === null){
                                 setActiveQuestion(i);
+                              
                                 return;
                             }
                         }
@@ -87,8 +91,9 @@
 
             
             vm.setActiveQuestion();
+            
         }
-
+        
         
         function selectAnswer(index){ //cevabı seçer
             DataService.quizQuestions[vm.activeQuestion].selected = index;
