@@ -42,7 +42,7 @@
     // "https://youtu.be/xR5O8y_rFc0",
     // "https://youtu.be/9kDVeXQysUA"]; 
 
-     var video=[{adres:["Cari-Hesaplar.mp4"]},{adres:["Hesap-Kartı-Ekleme.mp4"]},{adres:["Stok-Kartlar-Böümü.mp4"]},{adres:["Alış-Satış-Paneli.mp4"]},{adres:["Hızlı-Satış-Paneli.mp4"]},
+     var video=[{adres:["Cari-Hesaplar.mp4"]},{adres:["Hesap-Kartı-Ekleme.mp4"]},{adres:["Stok-Kartlar-Bölümü.mp4"]},{adres:["Alış-Satış-Paneli.mp4"]},{adres:["Hızlı-Satış-Paneli.mp4"]},
      {adres:["Fatura-Bölümü.mp4"]},{adres:["Kasa-Bölümü.mp4"]},{adres:["Taksit-Takip-Bölümü.mp4"]},{adres:["Teklif-Sipariş-Bölümü.mp4"]},{adres:["Yedekleme-Modülü.mp4"]},{adres:["Sms-Modülü.mp4"]},
      {adres:["Banka-Bölümü.mp4"]},{adres:["E-Fatura_E-Arşiv-Programı.mp4"]},{adres:["E-Fatura.mp4"]},{adres:["E-Arşiv.mp4"]},{adres:["İhracat-Faturası-ve-Gelen-Fatura-Takibi.mp4"]},
      {adres:["E-İrsaliye.mp4"]},{adres:["Personel-Takip-Programı.mp4"]}];
