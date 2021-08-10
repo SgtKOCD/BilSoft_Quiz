@@ -132,11 +132,18 @@
                     <div class="row">
                         <div class="col-xs-12">
                             <div class="row" style="text-align: center;">
-                                <div ng-show="quiz.dataService.quizQuestions[quiz.activeQuestion].video_url">
-                                    <iframe width="560" height="315" src="{{video_url}}"
-                                       ></iframe>
+                                <div>
+                                    
+
+                                    <video width="560" height="315" controls>
+                                        <source src="{{quiz.dataService.video[quiz.activeQuestion]}}" type='video/mp4'>
+                                        <source src="{{quiz.dataService.video[quiz.activeQuestion]}}" type="video/ogg">
+                                        
+                                    </video>
+                                    
                                 </div>
                             </div>
+                            
                             <h4>{{quiz.activeQuestion+1 + ". " +
                                 quiz.dataService.quizQuestions[quiz.activeQuestion].text}}</h4>
 

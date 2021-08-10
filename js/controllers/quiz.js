@@ -24,7 +24,7 @@
         vm.error = false; // kullanıcının boş soru bırakmasını engellemek için tanımlanan bayrak
         vm.finalise = false; //testi bitirmek ve sonuçları görüntülemek için tanımlandı
                              
-
+        
         var numQuestionsAnswered = 0; // cevaplanmış soruların sayacı
 
         

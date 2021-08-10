@@ -11,23 +11,46 @@
         var dataObj = {
             egitimData: egitimData,
             quizQuestions: quizQuestions,
-            correctAnswers: correctAnswers
+            correctAnswers: correctAnswers,
+            video:video
         };
 
         
         return dataObj;
     }
 
-    // burada dataları tutuyoruz cevapları soruları ve eğitim konularını"https://youtu.be/IWpZSeS0PjE"
+    // burada dataları tutuyoruz cevapları soruları ve eğitim konularını https://www.youtube.com/watch?v=IWpZSeS0PjE
 
     var correctAnswers = [1, 2, 3, 0, 2, 0, 3, 2, 0, 3];
-    
+    // var video=["https://youtu.be/IWpZSeS0PjE",
+    // "https://youtu.be/Hmfn4NYvI4E",
+    // "https://youtu.be/3nmYXBRlZWw",
+    // "https://youtu.be/xRGvR9jJ8cI",
+    // "https://youtu.be/vW8vSprRVj4",
+    // "https://youtu.be/-1ZkzBXZKnI",
+    // "https://youtu.be/20hVmGRV0mA",
+    // "https://youtu.be/e5jrl3VBJdc",
+    // "https://youtu.be/qG7Ofw9DxLc",
+    // "https://youtu.be/FpPMh1GHKCA",
+    // "https://youtu.be/WQDKK5EFg98",
+    // "https://youtu.be/V4N1c7PJFzY",
+    // "https://youtu.be/XpLowSQAzno",
+    // "https://youtu.be/DF0Dq91hU5k",
+    // "https://youtu.be/LFG5_sp9TKo",
+    // "https://youtu.be/DgbpegiNqfs",
+    // "https://youtu.be/xR5O8y_rFc0",
+    // "https://youtu.be/9kDVeXQysUA"];
+
+    var video=["Cari-Hesaplar.mp4","Hesap-Kartı-Ekleme.mp4","Stok-Kartlar-Böümü.mp4","Alış-Satış-Paneli.mp4","Hızlı-Satış-Paneli.mp4",
+    "Fatura-Bölümü.mp4","Kasa-Bölümü.mp4","Taksit-Takip-Bölümü.mp4","Teklif-Sipariş-Bölümü.mp4","Yedekleme-Modülü.mp4","Sms-Modülü.mp4",
+    "Banka-Bölümü.mp4","E-Fatura_E-Arşiv-Programı.mp4","E-Fatura.mp4","E-Arşiv.mp4","İhracat-Faturası-ve-Gelen-Fatura-Takibi.mp4",
+    "E-İrsaliye.mp4","Personel-Takip-Programı.mp4"];
 
     var quizQuestions  = [
         {
             type: "text",
             text: "soru1",
-            video_url:"https://www.w3schools.com",
+            //video_url:
             
             possibilities: [
                 {
@@ -49,7 +72,7 @@
         {
             type: "text",
             text: "soru2",
-            video_url:"https://youtu.be/Hmfn4NYvI4E",
+            //video_url:
             possibilities: [
                 {
                     answer: "cavap1"
@@ -70,7 +93,7 @@
         {
             type: "text",
             text: "soru3",
-            video_url:"https://youtu.be/3nmYXBRlZWw",
+            //video_url:,
             possibilities: [
                 {
                     answer: "cavap1"
@@ -91,7 +114,7 @@
         {
             type: "text",
             text: "soru4",
-            video_url:"https://youtu.be/xRGvR9jJ8cI",
+            //video_url:
             possibilities: [
                 {
                     answer: "cavap1"
@@ -112,7 +135,7 @@
         {
             type: "text",
             text: "soru5",
-            video_url:"https://youtu.be/vW8vSprRVj4",
+            //video_url:
             possibilities: [
                 {
                     answer: "cavap1"
@@ -133,7 +156,7 @@
         {
             type: "text",
             text: "soru6",
-            video_url:"https://youtu.be/-1ZkzBXZKnI",
+            //video_url:,
             possibilities: [
                 {
                     answer: "cavap1"
@@ -154,7 +177,7 @@
         {
             type: "text",
             text: "soru7",
-            video_url:"https://youtu.be/20hVmGRV0mA",
+            //video_url:,
             possibilities: [
                 {
                     answer: "cavap1"
@@ -175,7 +198,7 @@
         {
             type: "text",
             text: "soru8",
-            video_url:"https://youtu.be/e5jrl3VBJdc",
+            //video_url:
             possibilities: [
                 {
                     answer: "cavap1"
@@ -196,7 +219,7 @@
         {
             type: "text",
             text: "soru9",
-            video_url:"https://youtu.be/qG7Ofw9DxLc",
+            //video_url:
             possibilities: [
                 {
                     answer: "cavap1"
@@ -217,7 +240,7 @@
         {
             type: "text",
             text: "soru10",
-            video_url:"https://youtu.be/FpPMh1GHKCA",
+            //video_url:
             possibilities: [
                 {
                     answer: "cavap1"
@@ -238,7 +261,7 @@
         {
             type: "text",
             text: "soru11",
-            video_url:"https://youtu.be/WQDKK5EFg98",
+            //video_url:
             possibilities: [
                 {
                     answer: "cavap1"
@@ -259,7 +282,7 @@
         {
             type: "text",
             text: "soru12",
-            video_url:"https://youtu.be/V4N1c7PJFzY",
+            //video_url:
             possibilities: [
                 {
                     answer: "cavap1"
@@ -280,7 +303,7 @@
         {
             type: "text",
             text: "soru13",
-            video_url:"https://youtu.be/XpLowSQAzno",
+            //video_url:
             possibilities: [
                 {
                     answer: "cavap1"
@@ -301,7 +324,7 @@
         {
             type: "text",
             text: "soru14",
-            video_url:"https://youtu.be/DF0Dq91hU5k",
+            //video_url:
             possibilities: [
                 {
                     answer: "cavap1"
@@ -322,7 +345,7 @@
         {
             type: "text",
             text: "soru15",
-            video_url:"https://youtu.be/LFG5_sp9TKo",
+            //video_url:
             possibilities: [
                 {
                     answer: "cavap1"
@@ -343,7 +366,7 @@
         {
             type: "text",
             text: "soru16",
-            video_url:"https://youtu.be/DgbpegiNqfs",
+            //video_url:
             possibilities: [
                 {
                     answer: "cavap1"
@@ -364,7 +387,7 @@
         {
             type: "text",
             text: "soru17",
-            video_url:"https://youtu.be/xR5O8y_rFc0",
+            //video_url:
             possibilities: [
                 {
                     answer: "cavap1"
@@ -385,7 +408,7 @@
         {
             type: "text",
             text: "soru18",
-            video_url:"https://youtu.be/9kDVeXQysUA",
+            //video_url:
             possibilities: [
                 {
                     answer: "cavap1"
