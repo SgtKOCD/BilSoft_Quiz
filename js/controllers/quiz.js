@@ -20,7 +20,7 @@
         vm.setActiveQuestion = setActiveQuestion; 
         vm.selectAnswer = selectAnswer; 
         vm.finaliseAnswers = finaliseAnswers; 
-        vm.video=video;
+        
         vm.activeQuestion = 0; // testteki cevaplanmayan soru soru ( indis )
         vm.error = false; // kullanıcının boş soru bırakmasını engellemek için tanımlanan bayrak
         vm.finalise = false; //testi bitirmek ve sonuçları görüntülemek için tanımlandı

@@ -22,7 +22,7 @@
 
     // burada dataları tutuyoruz cevapları soruları ve eğitim konularını https://www.youtube.com/watch?v=IWpZSeS0PjE
 
-    var correctAnswers = [1, 2, 3, 0, 2, 0, 3, 2, 0, 3];
+    var correctAnswers = [1, 2, 3, 0, 2, 0, 3, 2, 0, 3,1, 2, 3, 0, 2, 0, 3, 2];
     // var video=["https://youtu.be/IWpZSeS0PjE",
     // "https://youtu.be/Hmfn4NYvI4E",
     // "https://youtu.be/3nmYXBRlZWw",
@@ -46,7 +46,7 @@
      {adres:["Fatura-Bölümü.mp4"]},{adres:["Kasa-Bölümü.mp4"]},{adres:["Taksit-Takip-Bölümü.mp4"]},{adres:["Teklif-Sipariş-Bölümü.mp4"]},{adres:["Yedekleme-Modülü.mp4"]},{adres:["Sms-Modülü.mp4"]},
      {adres:["Banka-Bölümü.mp4"]},{adres:["E-Fatura_E-Arşiv-Programı.mp4"]},{adres:["E-Fatura.mp4"]},{adres:["E-Arşiv.mp4"]},{adres:["İhracat-Faturası-ve-Gelen-Fatura-Takibi.mp4"]},
      {adres:["E-İrsaliye.mp4"]},{adres:["Personel-Takip-Programı.mp4"]}];
-     
+     var asd=["TRTR","TRTR"];
     var quizQuestions  = [
         {
             type: "text",
